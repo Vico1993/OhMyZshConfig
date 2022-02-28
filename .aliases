@@ -12,10 +12,10 @@ alias cat='bat'
 # Lock the screen (when going AFK)
 alias afk="osascript -e 'tell application \"System Events\" to keystroke \"q\" using {command down,control down}'"
 
-
 # list all "Host" and "HostName" lines, then remove the strings: "Host " and "HostName "
 alias sshhosts="grep -w -i -E 'Host|HostName' ~/.ssh/config | sed 's/Host //' | sed 's/HostName //'"
 
+# Open a folder in MacOS Finder
 alias f='open -a Finder ./'
 
 # IP addresses

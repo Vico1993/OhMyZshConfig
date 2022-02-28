@@ -1,6 +1,6 @@
 # Oh My Zsh Config
 
-Here I save my ZSH config so I don't loose it again...
+Here I save my ZSH config so I don't loose it again... For my MacOs Instalation at least!
 
 ## Installation
 
