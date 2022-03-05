@@ -7,7 +7,7 @@ Here I save my ZSH config so I don't loose it again... For my MacOs Instalation 
 1. Clone the repo
 
 ```shell
-git clone git@github.com:Vico1993/OhMyZshConfig.git .zsh
+git clone --recurse-submodules git@github.com:Vico1993/OhMyZshConfig.git .zsh
 ```
 
 2. Create a link from your $HOME with the `.zshrc`
