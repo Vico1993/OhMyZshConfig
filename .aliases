@@ -25,3 +25,6 @@ alias ips="sudo ifconfig -a | grep -o 'inet6\\? \\(addr:\\)\\?\\s\\?\\(\\(\\([0-
 
 # qfind Quickly search for file
 alias qfind="find . -name "
+
+# Reload ZSH config
+alias zshreload=". ~/.zshrc"
