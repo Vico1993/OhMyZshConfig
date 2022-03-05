@@ -9,6 +9,11 @@ alias mkdir='mkdir -pv'
 alias ll='ls -FGlAhp'
 alias cat='bat'
 
+# History
+alias h='history'
+alias hs='history | grep'
+alias hsi='history | grep -i'
+
 # Lock the screen (when going AFK)
 alias afk="osascript -e 'tell application \"System Events\" to keystroke \"q\" using {command down,control down}'"
 
