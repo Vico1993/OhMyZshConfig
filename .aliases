@@ -19,6 +19,9 @@ alias afk="osascript -e 'tell application \"System Events\" to keystroke \"q\" u
 alias goodnight="sudo shutdown -r now"
 alias restart="sudo shutdown -h now"
 
+# Application
+alias start='open -a $1'
+
 # list all "Host" and "HostName" lines, then remove the strings: "Host " and "HostName "
 alias sshhosts="grep -w -i -E 'Host|HostName' ~/.ssh/config | sed 's/Host //' | sed 's/HostName //'"
 
