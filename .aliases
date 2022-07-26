@@ -16,6 +16,8 @@ alias hsi='history | grep -i'
 
 # Lock the screen (when going AFK)
 alias afk="osascript -e 'tell application \"System Events\" to keystroke \"q\" using {command down,control down}'"
+alias goodnight="sudo shutdown -r now"
+alias restart="sudo shutdown -h now"
 
 # list all "Host" and "HostName" lines, then remove the strings: "Host " and "HostName "
 alias sshhosts="grep -w -i -E 'Host|HostName' ~/.ssh/config | sed 's/Host //' | sed 's/HostName //'"
