@@ -36,6 +36,12 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.zsh/.aliases
 source ~/.zsh/.functions
+source ~/.zsh/.zendesk
+
+# Zendesk specific
+if [ -f ~/.zsh/.zendesk ]; then
+  . ~/.zsh/.zendesk
+fi
 
 fpath=(~/.zsh $fpath)
 
@@ -46,7 +52,6 @@ fi
 
 # SSH auto complete
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
-
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
