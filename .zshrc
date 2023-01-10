@@ -36,10 +36,10 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.zsh/.aliases
 source ~/.zsh/.functions
-source ~/.zsh/.zendesk
 
 # Zendesk specific
 if [ -f ~/.zsh/.zendesk ]; then
+  source ~/.zsh.zendesk
   . ~/.zsh/.zendesk
 fi
 
